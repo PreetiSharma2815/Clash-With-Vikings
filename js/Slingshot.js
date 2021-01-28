@@ -15,14 +15,6 @@ class SlingShot {
     this.sling = Constraint.create(options);
     World.add(world, this.sling);
 
-    // const mouse = Mouse.create(canvas.elt);
-    // const mouseOptions = {
-    //   mouse: mouse,
-    //   body:bodyA
-    // };
-    // mouse.pixelRatio = pixelDensity();
-    // mouseConstraint = MouseConstraint.create(engine, mouseOptions);
-    // World.add(world, mouseConstraint);
   }
   
   attach(body) {
